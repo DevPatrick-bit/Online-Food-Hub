@@ -1,0 +1,284 @@
+﻿@model List<Producto> // Especifica el modelo utilizado en la vista
+
+
+@{
+    ViewData["Title"] = "Inicio - OnlineFoodHub"; // Establece el título de la página
+}
+
+
+<!-- Contenido de la vista sin encabezado -->
+
+<!-- Estilos CSS -->
+<style>
+    /* Estilos de la tarjeta de producto */
+    .productoItem {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .productoItem:hover {
+        transform: translateY(-15px); /* Eleva la tarjeta 15px al pasar el ratón */
+        box-shadow: 0 4px 8px rgba(255, 112, 0, 0.8); /* Agrega una sombra sutil */
+    }
+
+    .productoItem .card-body {
+        padding: 1.25rem; /* Añade padding dentro del cuerpo de la tarjeta */
+    }
+
+    .productoItem .card-title a {
+        color: #333; /* Color inicial del texto del título */
+        text-decoration: none; /* Quita el subrayado del enlace */
+        transition: color 0.3s ease-in-out; /* Transición suave del color al pasar el ratón */
+    }
+
+    .productoItem .card-title a:hover {
+        color: #007bff; /* Cambia el color del texto al azul de Bootstrap al pasar el ratón */
+    }
+
+    .productoItem .card-text {
+        font-size: 0.875rem; /* Tamaño de fuente más pequeño para el texto */
+        color: #666; /* Color secundario del texto */
+    }
+
+    .productoItem .list-group-item {
+        font-size: 0.875rem; /* Tamaño de fuente más pequeño para los elementos de la lista */
+        border: none; /* Quita el borde de los elementos de la lista */
+    }
+
+    .productoItem .list-group-item.font-weight-bold {
+        font-weight: bold; /* Fuente en negrita para elementos específicos */
+    }
+
+    .productoItem .alert {
+        margin-top: 0.75rem; /* Añade margen superior al mensaje de alerta */
+    }
+
+    .productoItem form {
+        margin-top: 0.75rem; /* Añade margen superior al formulario */
+    }
+
+    .productoItem input[type="number"] {
+        width: 4rem; /* Ancho específico para el campo de cantidad */
+        text-align: center; /* Centra el texto dentro del campo */
+    }
+
+    .productoItem .btn {
+        padding: 0.5rem 1rem; /* Ajusta el padding del botón */
+    }
+
+    .productoItem .btn i {
+        margin-right: 0.25rem; /* Añade margen derecho al ícono dentro del botón */
+    }
+
+    .card-img-top {
+        width: 70%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+        height: 350px; /* Altura deseada para la imagen */
+        object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+    }
+
+    .bg-custom {
+        background-color: rgba(255, 112, 0, 1) !important; /* Color de fondo oscuro con opacidad */
+        color: rgba(255, 255, 255, 1) !important; /* Color del texto */
+    }
+
+    .card-category {
+        height: 100%;
+    }
+
+    .card-img-container-category {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .card-img-top-category {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+</style>
+
+<body>
+    <div class="hero_area">
+    <div class="bg-box">
+      <img src="images/hero-bg.jpg" alt="">
+    </div>
+    <!-- slider section -->
+<section class="slider_section">
+  <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-lg-6">
+              <div class="detail-box">
+                <h1>
+                  Tu Comida Favorita, ¡a un Clic de Distancia!
+                </h1>
+                <p>
+                  Descubre la comodidad de ordenar tu comida favorita en línea. Navega por nuestra variada selección de restaurantes y platos, y recibe tus pedidos directamente en tu puerta. ¡Hacemos que comer bien sea más fácil que nunca!
+                </p>
+                <div class="btn-box">
+                  <a href="" class="btn1">
+                    Ordena Ahora
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-lg-6">
+              <div class="detail-box">
+                <h1>
+                  Amplia Variedad de Opciones
+                </h1>
+                <p>
+                  Desde restaurantes locales hasta opciones gourmet, nuestra plataforma te ofrece una amplia variedad de elecciones para satisfacer todos tus antojos. Explora menús detallados y encuentra justo lo que deseas para cada ocasión.
+                </p>
+                <div class="btn-box">
+                  <a href="" class="btn1">
+                    Ordena Ahora
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-lg-6">
+              <div class="detail-box">
+                <h1>
+                  Fácil, Rápido y Seguro
+                </h1>
+                <p>
+                  Con nuestra plataforma de pedidos en línea, puedes disfrutar de una experiencia de compra sencilla y segura. Realiza tus pedidos con facilidad, paga de manera segura y sigue el estado de tu entrega en tiempo real.
+                </p>
+                <div class="btn-box">
+                  <a href="" class="btn1">
+                    Ordena Ahora
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <ol class="carousel-indicators">
+        <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#customCarousel1" data-slide-to="1"></li>
+        <li data-target="#customCarousel1" data-slide-to="2"></li>
+      </ol>
+    </div>
+  </div>
+</section>
+</div>
+<!-- end slider section -->
+
+
+<div>
+    <a class="navbar-brand text-white" asp-controller="Menu" asp-action="Index">
+                OnlineFoodHub
+            </a>
+
+</div>
+
+
+<!-- Categorías -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="my-1">Categorías</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                @foreach (var categoria in ViewBag.Categorias)
+                {
+                        <div class="col">
+                            <div class="card-category productoItem">
+                                <a href="@Url.Action("Productos", "Home", new {categoriaId = categoria.CategoriaId })" class="text-decoration-none position-relative d-block">
+                                    <div class="card-img-container-category">
+                                        <img class="card-img-top-category img-fluid" src="@categoria.ImagenCategoria" alt="Imagen de categoría">
+                                    </div>
+                                    <div class="overlay position-absolute top-50 start-50 translate-middle text-center">
+                                        <h1 class="text-black fw-bold" style="font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(255, 112, 0, 0.8);">@categoria.Nombre</h1>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Productos destacados -->
+    <div class="container">
+        <h2 class="my-4 text-center">Menú</h2>
+        <div class="row" id="productosContainer">
+            @foreach (var producto in Model.Where(p => p.Stock > 0).Take(10))
+            {
+                <div class="col-md-4 col-sm-6 mb-4 productoItem" data-categoria="@producto.CategoriaID">
+                    <div class="card h-100 d-flex flex-column justify-content-between shadow-sm">
+                        <a href="@Url.Action("DetalleProducto", "Home", new { id = producto.ProductoId })">
+                            <img class="card-img-top img-fluid d-block mx-auto" style="height: 200px; object-fit: cover;" src="@producto.Imagen" alt="Imagen del producto" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center mb-2">
+                                <a href="@Url.Action("DetalleProducto", "Home", new { id = producto.ProductoId })" class="text-decoration-none text-dark">
+                                    @producto.Nombre
+                                </a>
+                            </h5>
+                            <p class="card-text text-center">@producto.Descripcion</p>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                           @*  <li class="list-group-item">Modelo: @producto.Tipo</li> *@
+                            <li class="list-group-item font-weight-bold">@String.Format("S/{0:N2}", producto.Precio) PEN</li> <!-- Aquí agregamos el símbolo de soles peruanos -->
+                        </ul>
+                        <div class="card-footer bg-white">
+                            <form method="post" asp-action="AgregarProductoIndex" class="d-flex justify-content-center mt-2">
+                                <input type="hidden" name="id" value="@producto.ProductoId" />
+                                <div class="input-group" style="max-width: 120px;">
+                                    <input type="number" class="form-control" name="cantidad" value="1" min="1" max="@producto.Stock" style="width: 60px;" />
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-outline-primary rounded-pill">
+                                            <i class="fas fa-cart-plus"></i> Agregar
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+
+
+<!-- Scripts -->
+@{
+    // Obtener los nombres del controlador y acción actuales
+    string? controllerName = Context.GetRouteValue("controller") as string;
+    string? actionName = Context.GetRouteValue("action") as string;
+}
+
+<script>
+    // Pasar los nombres del controlador y acción actuales al script del cliente
+    var controllerName = '@controllerName';
+    var actionName = '@actionName';
+</script>

@@ -1,0 +1,89 @@
+﻿
+@using System.Security.Claims
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark border-bottom box-shadow mb-3">
+        <div class="container-fluid mx-5">
+            <!-- Marca de Navegación con Icono -->
+            <a class="navbar-brand text-white" asp-controller="Home" asp-action="Index">
+                <i class="fa-solid fa-utensils me-2"></i> <!-- Icono de utensilios para representar comida -->
+                OnlineFoodHub
+            </a>
+
+            <!-- Botón de Navegación Colapsable -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menú Colapsable -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Formulario de Búsqueda -->
+                <form class="d-flex mx-auto" asp-controller="Home" asp-action="Productos" method="get">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Buscar productos" aria-label="Buscar" name="busqueda" />
+                        <button class="btn btn-outline-secondary" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Elementos del Menú -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Carrito" asp-action="Index">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="badge bg-primary">
+                                @ViewBag.NumeroProductos
+                            </span>
+                        </a>
+                    </li>
+                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        string nombreUsuario = User.Identity.Name ?? "Desconocido";
+                        string idUsuario = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-regular fa-user me-1"></i> @nombreUsuario
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" asp-controller="Perfil" asp-action="Details" asp-route-id="@idUsuario">
+                                        <i class="fa-solid fa-id-card me-2"></i> Perfil
+                                    </a>
+                                </li>
+                                @if (User.FindFirstValue(ClaimTypes.Role) == "Administrador")
+                                {
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Dashboard" asp-action="Index">
+                                            <i class="fa-solid fa-tachometer-alt me-2"></i> Dashboard
+                                        </a>
+                                    </li>
+                                }
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="Account" asp-action="Logout">
+                                        <i class="fa-solid fa-sign-out-alt me-2"></i> Cerrar Sesión
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-controller="Account" asp-action="Login">
+                                <i class="fa-regular fa-user me-1"></i> Iniciar Sesión
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+

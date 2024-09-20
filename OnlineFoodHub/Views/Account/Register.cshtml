@@ -1,0 +1,91 @@
+﻿@model Usuario
+
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<body>
+    <section class="container-fluid py-5">
+        <div class="container text-center text-lg-start my-5">
+            <div class="row gx-lg-5 align-items-center mb-5">
+
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body p-4">
+                            @if (User.Identity != null && User.Identity.IsAuthenticated)
+                            {
+                                <div class="text-center">
+                                    <p class="mb-4">¡Ya has iniciado sesión!</p>
+                                    <div class="spinner-border" role="status">
+                                        <span class="visually-hidden">Cargando...</span>
+                                    </div>
+                                </div>
+                                <script>
+                                    setTimeout(function () {
+                                        window.location.href = '@Url.Action("Index", "Home")';
+                                    }, 3000);
+                                </script>
+                            }
+                            else
+                            {
+                                <form asp-action="Register" method="post" class="row g-3">
+                                    <div class="col-md-6">
+                                        <label asp-for="Nombres" class="form-label"><i class="bi bi-person"></i> Nombres</label>
+                                        <input asp-for="Nombres" class="form-control" />
+                                        <span asp-validation-for="Nombres" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label asp-for="Telefono" class="form-label"><i class="bi bi-telephone"></i> Teléfono</label>
+                                        <input asp-for="Telefono" class="form-control" />
+                                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label asp-for="NombreUsuario" class="form-label"><i class="bi bi-person-badge"></i> Nombre de Usuario</label>
+                                        <input asp-for="NombreUsuario" class="form-control" />
+                                        <span asp-validation-for="NombreUsuario" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label asp-for="Contrasenia" class="form-label"><i class="bi bi-lock"></i> Contraseña</label>
+                                        <input asp-for="Contrasenia" type="password" class="form-control" />
+                                        <span asp-validation-for="Contrasenia" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label asp-for="Correo" class="form-label"><i class="bi bi-envelope"></i> Correo Electrónico</label>
+                                        <input asp-for="Correo" type="email" class="form-control" />
+                                        <span asp-validation-for="Correo" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label asp-for="Direccion" class="form-label"><i class="bi bi-house-door"></i> Dirección</label>
+                                        <input asp-for="Direccion" class="form-control" />
+                                        <span asp-validation-for="Direccion" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <button type="submit" class="btn btn-primary btn-block">
+                                            <i class="fas fa-sign-in-alt me-2"></i> Registrarse
+                                        </button>
+                                    </div>
+                                </form>
+                                <div class="text-center mt-3">
+                                    <a asp-action="Login" class="btn btn-secondary btn-block">
+                                        <i class="fas fa-sign-in-alt me-2"></i> Iniciar sesión
+                                    </a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="my-5 display-5 fw-bold">
+                        BIENVENIDO <br />
+                        <span>Regístrate para continuar</span>
+                    </h1>
+                    <h3 class="mb-2">
+                        Por favor, completa el formulario para crear tu cuenta.
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>

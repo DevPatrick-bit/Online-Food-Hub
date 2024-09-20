@@ -1,0 +1,55 @@
+﻿@model Producto
+
+@{
+    ViewData["Title"] = "Detalle del Producto";
+}
+
+<div class="container mt-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <!-- Aquí se llenará el breadcrumb con JavaScript si es necesario -->
+        </ol>
+    </nav>
+    <h2 class="mb-4">@Model.Nombre</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.Imagen" class="img-fluid rounded shadow-sm" alt="Imagen del Producto" />
+        </div>
+        <div class="col-md-6">
+            <h4 class="mt-4">Modelo: @Model.Tipo</h4>
+            <p>@Model.Descripcion</p>
+            <p><strong>Precio:</strong> @String.Format("{0:C}", Model.Precio)</p>
+            <p><strong>Categoría:</strong> @Model.Categoria.Nombre</p>
+
+            @if (Model.Stock < 1)
+            {
+                <div class="alert alert-danger d-flex align-items-center" role="alert">
+                    <i class="fas fa-exclamation-circle mr-2"></i> Agotado
+                </div>
+            }
+            else
+            {
+                <form method="post" action="AgregarProductoDetalle" class="d-flex align-items-center">
+                    <input type="hidden" name="id" value="@Model.ProductoId" />
+                    <div class="input-group mr-2" style="max-width: 150px;">
+                        <input type="number" class="form-control" name="cantidad" value="1" min="1" max="@Model.Stock" />
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary rounded-pill">
+                        <i class="fas fa-cart-plus"></i> Agregar al carrito
+                    </button>
+                </form>
+            }
+        </div>
+    </div>
+</div>
+
+
+@{
+    string? controllerName = Context.GetRouteValue("controller") as string;
+    string? actionName = Context.GetRouteValue("action") as string;
+}
+
+<script>
+    var controllerName = '@controllerName';
+    var actionName = '@actionName';
+</script>

@@ -1,0 +1,145 @@
+﻿@model OnlineFoodHub.Models.ViewModels.ProcederConCompraViewModel
+
+@{
+    ViewData["Title"] = "Canasta de Compras";
+}
+
+<section class="h-100 gradient-custom">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center my-4">
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="card-header py-3">
+                        <h2 class="mb-0">Canasta de Compras</h2>
+                    </div>
+                    <div class="card-body">
+                        @if (Model.Carrito.Items.Count == 0)
+                        {
+                            <div class="alert alert-info text-center">
+                                <p>No hay productos en la canasta.</p>
+                                <a href="/Home" class="btn btn-primary mt-3">Seguir Comprando</a>
+                            </div>
+                        }
+                        else
+                        {
+                            @foreach (var item in Model.Carrito.Items)
+                            {
+                                <div class="row mb-4">
+                                    <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                                            <img src="@item.Producto.Imagen" class="w-100" alt="Imagen del producto" />
+                                            <a href="#!" aria-label="Ver producto">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                        <p><strong>@item.Nombre</strong></p>
+                                        <p>Cantidad: @item.Cantidad</p>
+                                        <p>Precio: @item.Precio.ToString("C")</p>
+                                        <form asp-action="ActualizarCantidad" asp-controller="Carrito" method="post">
+                                            <div class="input-group mb-3">
+                                                <input type="number" value="@item.Cantidad" name="cantidad" class="form-control" min="1" max="@item.Producto.Stock" aria-label="Cantidad" />
+                                                <button type="submit" class="btn btn-primary" name="ActualizarCantidad" aria-label="Actualizar cantidad">
+                                                    <i class="fas fa-sync-alt"></i> Actualizar
+                                                </button>
+                                            </div>
+                                            <input type="hidden" name="id" value="@item.ProductoId" />
+                                        </form>
+                                        <form asp-action="EliminarCantidad" asp-controller="Carrito" method="post">
+                                            <button type="submit" class="btn btn-danger" name="EliminarProducto" aria-label="Eliminar producto">
+                                                <i class="fas fa-trash-alt"></i> Eliminar
+                                            </button>
+                                            <input type="hidden" name="id" value="@item.ProductoId" />
+                                        </form>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                        <p class="text-start text-md-center"><strong>Subtotal: @item.Subtotal.ToString("C")</strong></p>
+                                    </div>
+                                </div>
+                            }
+                            <hr class="my-4" />
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <form asp-controller="Carrito" asp-action="VaciarCarrito" method="post">
+                                        <button type="submit" class="btn btn-danger" name="VaciarCanasta" aria-label="Vaciar canasta">
+                                            <i class="fas fa-trash-alt"></i> Vaciar Canasta
+                                        </button>
+                                    </form>
+
+                                </div>
+                                <div class="col-md-6 text-end">
+                                    <h3>Total: @Model.Carrito.Total.ToString("C")</h3>
+                                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                                    {
+                                        <form asp-controller="Canasta" asp-action="ProcederConCompra" method="post">
+                                            @if (Model.Direcciones.Count == 0)
+                                            {
+                                                <p>No se encontraron direcciones de envío para su usuario. Acceda a su perfil para agregar una dirección.</p>
+                                            }
+                                            else
+                                            {
+                                                @foreach (var direccion in Model.Direcciones)
+                                                {
+                                                    <div class="form-check">
+                                                        <input type="radio" name="direccionIdSeleccionada" class="form-check-input" value="@direccion.DireccionID" id="@direccion.DireccionID" required aria-label="Seleccionar dirección de envío" />
+                                                        <label class="form-check-label" for="@direccion.DireccionID">
+                                                            @direccion.Address
+                                                        </label>
+                                                    </div>
+                                                }
+                                                <input type="hidden" name="montoTotal" value="@Model.Carrito.Total" />
+                                                <button type="submit" class="btn btn-primary btn-lg mt-3" name="ProcederCompra" aria-label="Proceder con la compra">
+                                                    <i class="fas fa-shopping-cart"></i> Proceder con la compra
+                                                </button>
+                                            }
+                                        </form>
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-primary" asp-action="Login" asp-controller="Account" name="IniciarSesion">
+                                            Iniciar sesión para proceder con la compra
+                                        </a>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="mb-0">Resumen</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                                Productos
+                                <span>@Model.Carrito.Total.ToString("C")</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                Envío
+                                <span>Gratis</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                                <div>
+                                    <strong>Total</strong>
+                                    <p class="mb-0">(incluido IGV)</p>
+                                </div>
+                                <span><strong>@Model.Carrito.Total.ToString("C")</strong></span>
+                            </li>
+                        </ul>
+                        <form asp-controller="Checkout" asp-action="Index" method="post">
+                            <button type="submit" class="btn btn-primary btn-lg btn-block" name="IrCaja" aria-label="Ir a la caja">
+                                Ir a la caja
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

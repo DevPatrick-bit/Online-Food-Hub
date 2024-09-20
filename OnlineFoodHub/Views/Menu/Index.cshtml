@@ -1,0 +1,47 @@
+﻿@* @model List<Producto> // Especifica el modelo utilizado en la vista
+
+
+<div class="container">
+    <h2 class="my-4">Productos destacados</h2>
+    <div class="row" id="productosContainer">
+        @foreach (var producto in Model)
+        {
+            <div class="col-md-4 col-sm-6 mb-4 productoItem" data-categoria="@producto.CategoriaID">
+                <div class="card h-100 d-grid shadow-sm">
+                    <a href="@Url.Action("DetalleProducto", "Home", new { id = producto.ProductoId })">
+                        <img class="card-img-top img-fluid d-block mx-auto" src="@producto.Imagen" alt="Imagen del producto" />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title text-center mb-2">
+                            <a href="@Url.Action("DetalleProducto", "Home", new { id = producto.ProductoId })" class="text-decoration-none text-dark">@producto.Nombre</a>
+                        </h5>
+                        <p class="card-text text-center">@producto.Descripcion</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">Modelo: @producto.Tipo</li>
+                        <li class="list-group-item font-weight-bold">@String.Format("{0:C}", producto.Precio)</li>
+                    </ul>
+                    <div class="card-footer">
+                        @if (producto.Stock < 1)
+                        {
+                            <div class="alert alert-danger text-center mb-0">
+                                <i class="fas fa-exclamation-circle"></i> Agotado
+                            </div>
+                        }
+                        else
+                        {
+                            <form method="post" action="@Url.Action("AgregarProductoIndex", "Home")" class="d-flex justify-content-center mt-2">
+                                <input type="hidden" name="id" value="@producto.ProductoId" />
+                                <input type="number" class="form-control mr-2" name="cantidad" value="1" min="1" max="@producto.Stock" style="width: 70px;" />
+                                <button type="submit" class="btn btn-outline-primary rounded-pill">
+                                    <i class="fas fa-cart-plus"></i> Agregar al carrito
+                                </button>
+                            </form>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+ *@

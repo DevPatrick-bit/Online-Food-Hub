@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Bienvenido al Dashboard</h1>
+    <p class="lead">Aquí encontrarás los índices de los demás controladores:</p>
+
+    <div class="list-group">
+        <a href="@Url.Action("Index", "Usuarios")" class="list-group-item list-group-item-action">
+            <i class="fas fa-users"></i> Usuarios
+        </a>
+        <a href="@Url.Action("Index", "Roles")" class="list-group-item list-group-item-action">
+            <i class="fas fa-user-tag"></i> Roles
+        </a>
+        <a href="@Url.Action("Index", "Productos")" class="list-group-item list-group-item-action">
+            <i class="fas fa-box"></i> Productos
+        </a>
+        <a href="@Url.Action("Index", "Pedidos")" class="list-group-item list-group-item-action">
+            <i class="fas fa-shopping-cart"></i> Pedidos
+        </a>
+        <a href="@Url.Action("Index", "Direcciones")" class="list-group-item list-group-item-action">
+            <i class="fas fa-map-marker-alt"></i> Direcciones
+        </a>
+        <a href="@Url.Action("Index", "DetallesPedidos")" class="list-group-item list-group-item-action">
+            <i class="fas fa-file-alt"></i> Detalles de Pedidos
+        </a>
+        <a href="@Url.Action("Index", "Categorias")" class="list-group-item list-group-item-action">
+            <i class="fas fa-tags"></i> Categorías
+        </a>
+    </div>
+</div>
