@@ -4,21 +4,29 @@
     ViewData["Title"] = "Registro";
 }
 
-<body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+</head>
+<body class="bg-light">
     <section class="container-fluid py-5">
-        <div class="container text-center text-lg-start my-5">
-            <div class="row gx-lg-5 align-items-center mb-5">
-
+        <div class="container">
+            <div class="row gx-lg-5 align-items-center">
+                <!-- Formulario de Registro -->
                 <div class="col-lg-6 mb-5 mb-lg-0">
-                    <div class="card bg-light text-dark">
-                        <div class="card-body p-4">
+                    <div class="card bg-white shadow-lg border-0 rounded-3">
+                        <div class="card-body p-5">
                             @if (User.Identity != null && User.Identity.IsAuthenticated)
                             {
                                 <div class="text-center">
-                                    <p class="mb-4">¡Ya has iniciado sesión!</p>
-                                    <div class="spinner-border" role="status">
+                                    <p class="h5 text-success"><i class="fas fa-check-circle"></i> ¡Ya has iniciado sesión!</p>
+                                    <div class="spinner-border text-primary mt-3" role="status">
                                         <span class="visually-hidden">Cargando...</span>
                                     </div>
+                                    <p class="mt-3 text-muted">Redirigiendo al inicio...</p>
                                 </div>
                                 <script>
                                     setTimeout(function () {
@@ -28,46 +36,48 @@
                             }
                             else
                             {
-                                <form asp-action="Register" method="post" class="row g-3">
+                                <h2 class="text-center mb-4 text-primary"><i class="fas fa-hamburger"></i> ¡Únete a FoodExpress!</h2>
+                                <p class="text-muted text-center mb-4">Regístrate para comenzar a disfrutar de los mejores platos, entregados en tu puerta.</p>
+                                <form asp-action="Register" method="post" class="row g-4">
                                     <div class="col-md-6">
-                                        <label asp-for="Nombres" class="form-label"><i class="bi bi-person"></i> Nombres</label>
-                                        <input asp-for="Nombres" class="form-control" />
+                                        <label asp-for="Nombres" class="form-label"><i class="fas fa-user"></i> Nombres</label>
+                                        <input asp-for="Nombres" class="form-control" placeholder="Tu nombre completo" />
                                         <span asp-validation-for="Nombres" class="text-danger"></span>
                                     </div>
                                     <div class="col-md-6">
-                                        <label asp-for="Telefono" class="form-label"><i class="bi bi-telephone"></i> Teléfono</label>
-                                        <input asp-for="Telefono" class="form-control" />
+                                        <label asp-for="Telefono" class="form-label"><i class="fas fa-phone"></i> Teléfono</label>
+                                        <input asp-for="Telefono" class="form-control" placeholder="Tu teléfono" />
                                         <span asp-validation-for="Telefono" class="text-danger"></span>
                                     </div>
                                     <div class="col-md-6">
-                                        <label asp-for="NombreUsuario" class="form-label"><i class="bi bi-person-badge"></i> Nombre de Usuario</label>
-                                        <input asp-for="NombreUsuario" class="form-control" />
+                                        <label asp-for="NombreUsuario" class="form-label"><i class="fas fa-user-tag"></i> Nombre de Usuario</label>
+                                        <input asp-for="NombreUsuario" class="form-control" placeholder="Nombre de usuario" />
                                         <span asp-validation-for="NombreUsuario" class="text-danger"></span>
                                     </div>
                                     <div class="col-md-6">
-                                        <label asp-for="Contrasenia" class="form-label"><i class="bi bi-lock"></i> Contraseña</label>
-                                        <input asp-for="Contrasenia" type="password" class="form-control" />
+                                        <label asp-for="Contrasenia" class="form-label"><i class="fas fa-lock"></i> Contraseña</label>
+                                        <input asp-for="Contrasenia" type="password" class="form-control" placeholder="Contraseña segura" />
                                         <span asp-validation-for="Contrasenia" class="text-danger"></span>
                                     </div>
                                     <div class="col-md-6">
-                                        <label asp-for="Correo" class="form-label"><i class="bi bi-envelope"></i> Correo Electrónico</label>
-                                        <input asp-for="Correo" type="email" class="form-control" />
+                                        <label asp-for="Correo" class="form-label"><i class="fas fa-envelope"></i> Correo Electrónico</label>
+                                        <input asp-for="Correo" type="email" class="form-control" placeholder="Tu correo electrónico" />
                                         <span asp-validation-for="Correo" class="text-danger"></span>
                                     </div>
                                     <div class="col-md-6">
-                                        <label asp-for="Direccion" class="form-label"><i class="bi bi-house-door"></i> Dirección</label>
-                                        <input asp-for="Direccion" class="form-control" />
+                                        <label asp-for="Direccion" class="form-label"><i class="fas fa-map-marker-alt"></i> Dirección</label>
+                                        <input asp-for="Direccion" class="form-control" placeholder="Tu dirección completa" />
                                         <span asp-validation-for="Direccion" class="text-danger"></span>
                                     </div>
-                                    <div class="col-12 mt-3">
-                                        <button type="submit" class="btn btn-primary btn-block">
-                                            <i class="fas fa-sign-in-alt me-2"></i> Registrarse
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary w-100">
+                                            <i class="fas fa-utensils"></i> Registrarse
                                         </button>
                                     </div>
                                 </form>
                                 <div class="text-center mt-3">
-                                    <a asp-action="Login" class="btn btn-secondary btn-block">
-                                        <i class="fas fa-sign-in-alt me-2"></i> Iniciar sesión
+                                    <a asp-action="Login" class="btn btn-secondary">
+                                        <i class="fas fa-sign-in-alt"></i> ¿Ya tienes cuenta? Inicia sesión
                                     </a>
                                 </div>
                             }
@@ -75,17 +85,15 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                    <h1 class="my-5 display-5 fw-bold">
-                        BIENVENIDO <br />
-                        <span>Regístrate para continuar</span>
-                    </h1>
-                    <h3 class="mb-2">
-                        Por favor, completa el formulario para crear tu cuenta.
-                    </h3>
+                <!-- Sección informativa -->
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="display-5 fw-bold text-primary mb-4">¡Bienvenido a FoodExpress!</h1>
+                    <p class="lead text-muted">
+                        Con FoodExpress, los mejores platos de tus restaurantes favoritos están a solo un clic.
+                    </p>
                 </div>
-
             </div>
         </div>
     </section>
 </body>
+</html>

@@ -1,29 +1,51 @@
 ﻿@model OnlineFoodHub.Models.Usuario
+
 @{
     ViewData["Title"] = "Perfiles de usuario";
 }
 
-<div class="container">
-    <div class="card emp-profile bg-light my-5">
+<div class="container my-5">
+    <div class="card emp-profile bg-white shadow-lg border-0 rounded-3">
         <div class="row">
-            <div class="col-md-4 d-flex justify-content-center align-items-center">
-                <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="profile picture" class="img-fluid rounded-circle" style="width: 150px; height: 150px;">
+            <!-- Imagen de perfil -->
+            <div class="col-md-4 d-flex justify-content-center align-items-center p-4">
+                <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"
+                     alt="profile picture"
+                     class="img-fluid rounded-circle shadow-sm"
+                     style="width: 150px; height: 150px;">
             </div>
+            <!-- Información de usuario -->
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title">@Model.NombreUsuario</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">@Model.Correo</h6>
-                    <p class="card-text"><strong>Nombres:</strong> <span>@Model.Nombres</span></p>
-                    <p class="card-text"><strong>Teléfono:</strong> <span>@Model.Telefono</span></p>
-                    <h6 class="mt-3">Direcciones</h6>
+                    <h3 class="card-title text-primary">
+                        <i class="fas fa-user-circle" style="font-size: 1.5rem; color: black;"></i> @Model.NombreUsuario
+                    </h3>
+                    <h5 class="card-subtitle mb-3 text-muted">
+                        <i class="fas fa-envelope" style="font-size: 1.5rem; color: black;"></i> @Model.Correo
+                    </h5>
+                    <p class="card-text">
+                        <strong><i class="fas fa-id-card" style="font-size: 1.5rem; color: black;"></i> Nombres:</strong>
+                        <span>@Model.Nombres</span>
+                    </p>
+                    <p class="card-text">
+                        <strong><i class="fas fa-phone" style="font-size: 1.5rem; color: black;"></i> Teléfono:</strong>
+                        <span>@Model.Telefono</span>
+                    </p>
+
+                    <!-- Direcciones del usuario -->
+                    <h5 class="mt-4 text-secondary">
+                        <i class="fas fa-map-marker-alt" style="font-size: 1.5rem; color: black;"></i> Direcciones
+                    </h5>
                     <div>
                         @if (Model.Direcciones.Any())
                         {
                             <div class="table-responsive">
-                                <table class="table table-striped">
-                                    <thead>
+                                <table class="table table-hover">
+                                    <thead class="table-primary">
                                         <tr>
-                                            <th>Dirección</th>
+                                            <th>
+                                                <i class="fas fa-home" style="font-size: 1.5rem; color: black;"></i> Dirección
+                                            </th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -39,7 +61,9 @@
                         }
                         else
                         {
-                            <p>No hay direcciones disponibles</p>
+                            <p class="text-muted">
+                                <i class="fas fa-info-circle" style="font-size: 1.5rem; color: black;"></i> No hay direcciones disponibles
+                            </p>
                         }
                     </div>
                 </div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xxn6JhhKnM2GqE5QKILqwVCh90NkvuKoG4sWTp4Kh/i9msjNGowgLF9dsMTM6SYzTyFCZuwC0UuFE+kDjjuYeg==",
+  "dgSpecHash": "1csUr8pt1O1u1Q92Lopq/FDIqCmWV4ScMur9HUR0p90lgiN+Yl7AQC+zFIo1u80iS4tfsNgBpwRbPKQeCGjZ+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\OnlineFoodHub.csproj",
+  "projectFilePath": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\OnlineFoodHub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

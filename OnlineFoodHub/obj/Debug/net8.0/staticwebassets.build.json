@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZJcvv0lcwelcVw9VM/7eoD5vvoXzO8UoYM1GPZ/xWkA=",
+  "Hash": "rE1ErpXVVQr5l28/E+IBQToeRpTdyHi4Hno9UMoNQvA=",
   "Source": "OnlineFoodHub",
   "BasePath": "_content/OnlineFoodHub",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "OnlineFoodHub\\wwwroot",
       "Source": "OnlineFoodHub",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineFoodHub.styles.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineFoodHub.styles.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "OnlineFoodHub.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineFoodHub.styles.css"
+      "OriginalItemSpec": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineFoodHub.styles.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineFoodHub.bundle.scp.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineFoodHub.bundle.scp.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "OnlineFoodHub.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineFoodHub.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineFoodHub.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\css\\bootstrap.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\css\\font-awesome.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "css/font-awesome.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\css\\responsive.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\css\\responsive.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "css/responsive.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\responsive.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\css\\site.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\css\\style.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\css\\style.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\css\\style.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "css/style.css.map",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\css\\style.scss",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\css\\style.scss",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "css/style.scss",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.scss"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\favicon.ico",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\about-img.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\about-img.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/about-img.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about-img.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\client1.jpg",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\client1.jpg",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/client1.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\client1.jpg"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\client2.jpg",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\client2.jpg",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/client2.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\client2.jpg"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\f1.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\f1.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/f1.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f1.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\f2.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\f2.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/f2.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f2.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\f3.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\f3.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/f3.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f3.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\f4.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\f4.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/f4.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f4.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\f5.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\f5.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/f5.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f5.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\f6.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\f6.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/f6.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f6.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\f7.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\f7.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/f7.png",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f7.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\f8.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\f8.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/f8.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f8.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\f9.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\f9.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/f9.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f9.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\favicon.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\favicon.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/favicon.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hambur1.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hambur1.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hambur1.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hambur1.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hambur2.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hambur2.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hambur2.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hambur2.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hambur3.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hambur3.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hambur3.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hambur3.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hambur4.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hambur4.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hambur4.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hambur4.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hambur5.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hambur5.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hambur5.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hambur5.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hambur6.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hambur6.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hambur6.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hambur6.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hambur7.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hambur7.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hambur7.png",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hambur7.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hambur8.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hambur8.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hambur8.png",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hambur8.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hambur9.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hambur9.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hambur9.png",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hambur9.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\hero-bg.jpg",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\hero-bg.jpg",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/hero-bg.jpg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hero-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\o1.jpg",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\o1.jpg",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/o1.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\o1.jpg"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\o2.jpg",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\o2.jpg",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/o2.jpg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\o2.jpg"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\pizza1.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\pizza1.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/pizza1.png",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pizza1.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\Pizza2.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\Pizza2.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/Pizza2.png",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Pizza2.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\Pizza3.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\Pizza3.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/Pizza3.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Pizza3.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\pizza4.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\pizza4.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/pizza4.png",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pizza4.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\Pizza5.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\Pizza5.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/Pizza5.png",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Pizza5.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\Pizza6.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\Pizza6.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/Pizza6.png",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Pizza6.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\pngegg (1).png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\pngegg (1).png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/pngegg (1).png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pngegg (1).png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\images\\pngegg.png",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\images\\pngegg.png",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "images/pngegg.png",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pngegg.png"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\js\\bootstrap.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\js\\custom.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\js\\custom.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\js\\jquery-3.4.1.min.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "js/jquery-3.4.1.min.js",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.4.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\js\\site.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\all.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\all.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/all.css",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\all.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\all.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\all.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/all.min.css",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\all.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\brands.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\brands.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/brands.css",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\brands.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\brands.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\brands.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/brands.min.css",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\brands.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\fontawesome.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\fontawesome.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/fontawesome.css",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\fontawesome.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\fontawesome.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\regular.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\regular.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/regular.css",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\regular.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\regular.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\regular.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/regular.min.css",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\regular.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\solid.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\solid.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/solid.css",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\solid.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\solid.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\solid.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/solid.min.css",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\solid.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\svg-with-js.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\svg-with-js.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/svg-with-js.css",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\svg-with-js.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\svg-with-js.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\svg-with-js.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/svg-with-js.min.css",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v4-font-face.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v4-font-face.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/v4-font-face.css",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\v4-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v4-font-face.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v4-font-face.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/v4-font-face.min.css",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\v4-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v4-shims.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v4-shims.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/v4-shims.css",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\v4-shims.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v4-shims.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v4-shims.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/v4-shims.min.css",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v5-font-face.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v5-font-face.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/v5-font-face.css",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\v5-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v5-font-face.min.css",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\css\\v5-font-face.min.css",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/css/v5-font-face.min.css",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\css\\v5-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/webfonts/fa-v4compatibility.ttf",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/fontawesome/webfonts/fa-v4compatibility.woff2",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "OnlineFoodHub",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\wwwroot\\",
       "BasePath": "_content/OnlineFoodHub",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
