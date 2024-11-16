@@ -1,66 +1,65 @@
 ﻿@if (!string.IsNullOrEmpty(Model.NombreCategoriaSelecionada))
 {
-    <div class="alert alert-info">
-        departamento seleccionado: @Model.NombreCategoriaSelecionada
+    <div class="alert alert-info text-center">
+        <strong>Departamento seleccionado:</strong> @Model.NombreCategoriaSelecionada
     </div>
 }
 
 <div class="row" id="productosContainer">
     @if (Model.Productos.Count == 0)
     {
-        <div class="col-md-12">
-            <p>No se encontraron productos que coincidan con la búsqueda.</p>
+        <div class="col-md-12 text-center">
+            <div class="alert alert-warning" role="alert">
+                <i class="fas fa-info-circle"></i> No se encontraron productos que coincidan con la búsqueda.
+            </div>
         </div>
     }
     else
     {
         @foreach (var producto in Model.Productos)
         {
-            <div class="col-md-4 col-sm-6 mb-4 productoItem"
-                 data-categoria="@producto.CategoriaID">
-                <div class="card h-100 d-grid">
-                    @* Enlace a la página de detalles del producto con su imagen *@
+            <div class="col-md-4 col-sm-6 mb-4 productoItem" data-categoria="@producto.CategoriaID">
+                <div class="card h-100 shadow-sm">
+                    <!-- Imagen del Producto -->
                     <a href="@Url.Action("DetalleProducto", "Home", new { id = producto.ProductoId })">
-                        <img class="card-img-top" src="@producto.Imagen" alt="Imagen del producto" />
+                        <img class="card-img-top img-fluid rounded" src="@producto.Imagen" alt="Imagen del producto" />
                     </a>
-                    <div class="card-body">
-                        <h5 class="card-title text-center">
-                            @* Enlace al nombre del producto *@
-                            <a href="@Url.Action("DetalleProducto", "Home", new { id = producto.ProductoId })">@producto.Nombre</a>
+
+                    <div class="card-body text-center">
+                        <!-- Nombre del Producto -->
+                        <h5 class="card-title">
+                            <a class="text-decoration-none text-dark" href="@Url.Action("DetalleProducto", "Home", new { id = producto.ProductoId })">
+                                @producto.Nombre
+                            </a>
                         </h5>
-                        <p class="card-text">@producto.Descripcion</p>
+                        <p class="card-text text-muted">@producto.Descripcion</p>
                     </div>
+
+                    <!-- Detalles del Producto -->
                     <ul class="list-group list-group-flush text-center">
                         <li class="list-group-item">Modelo: @producto.Tipo</li>
-                        <li class="list-group-item font-weight-bold">@String.Format("{0:C}", producto.Precio)</li>
+                        <li class="list-group-item text-success fw-bold">@String.Format("{0:C}", producto.Precio)</li>
                     </ul>
-                    <div>
-                        @* Muestra un mensaje si el producto está agotado *@
+
+                    <div class="card-footer text-center bg-light">
                         @if (producto.Stock < 1)
                         {
-                            <div class="alert alert-danger" role="alert">
+                            <div class="alert alert-danger m-0 p-2" role="alert">
                                 <i class="fas fa-exclamation-circle"></i> Agotado
                             </div>
                         }
                         else
                         {
-                            @* Formulario para agregar el producto al carrito *@
-                            <form method="post" action="@Url.Action("AgregarProducto", "Home")"
-                                  class="d-flex">
-                                <input type="hidden" name="id"
-                                       value="@producto.ProductoId" />
-                                <input type="number" class="form-control mr-2"
-                                       name="cantidad" value="1" min="1"
-                                       max="@producto.Stock" />
-                                <input type="hidden" name="busqueda"
-                                       value="@Model.Busqueda" />
-                                <input type="hidden" name="pagina"
-                                       value="@Model.PaginaActual" />
-                                <input type="hidden" name="categoriaId"
-                                       value="@Model.CategoriaIdSelecionada" />
-                                <button type="submit"
-                                        class="btn btn-outline-primary rounded-pill">
-                                    <i class="fas fa-cart-plus"></i>
+                            <form method="post" action="@Url.Action("AgregarProducto", "Home")" class="d-flex justify-content-center align-items-center">
+                                <input type="hidden" name="id" value="@producto.ProductoId" />
+                                <div class="input-group me-2" style="max-width: 100px;">
+                                    <input type="number" class="form-control" name="cantidad" value="1" min="1" max="@producto.Stock" />
+                                </div>
+                                <input type="hidden" name="busqueda" value="@Model.Busqueda" />
+                                <input type="hidden" name="pagina" value="@Model.PaginaActual" />
+                                <input type="hidden" name="categoriaId" value="@Model.CategoriaIdSelecionada" />
+                                <button type="submit" class="btn btn-primary btn-sm rounded-pill">
+                                    <i class="fas fa-cart-plus"></i> Añadir
                                 </button>
                             </form>
                         }
@@ -71,19 +70,19 @@
     }
 </div>
 
-<nav>
+<!-- Paginación -->
+<nav class="mt-4">
     <ul class="pagination justify-content-center">
         @if (Model.TotalPaginas > 1)
         {
             for (int pagina = 1; pagina <= Model.TotalPaginas; pagina++)
             {
                 <li class="page-item @(pagina == Model.PaginaActual ? "active" : "")">
-                    <a class="page-link"
-                       href="@Url.Action("Productos", "Home", new { pagina = pagina, categoriaId = Model.
-                           CategoriaIdSeleccionada, busqueda = Model.Busqueda })">@pagina</a>
+                    <a class="page-link" href="@Url.Action("Productos", "Home", new { pagina = pagina, categoriaId = Model.CategoriaIdSelecionada, busqueda = Model.Busqueda })">
+                        @pagina
+                    </a>
                 </li>
             }
         }
     </ul>
 </nav>
-

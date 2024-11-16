@@ -1,75 +1,76 @@
 ﻿@model OnlineFoodHub.Models.ViewModels.ProductoPaginadosViewModel
 
 @{
-    // Establecer el título de la página en "Productos"
     ViewData["Title"] = "Productos";
 }
 
-<div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb" id="breadcrumb-container">
+<div class="container mt-5">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Productos</li>
         </ol>
     </nav>
-    <div class="row">
-        <nav class="col-md-3">
-            <ul class="list-group">
-                <li class="list-group-item active">Filtrar resultados:</li>
-                <li class="list-group-item">
-                    <!-- Checkbox para seleccionar todas las categorías -->
-                    <input type="checkbox" class="form-check-input" id="todasCheckbox" data-categoria="" checked />
-                    <label class="form-check-label" for="todasCheckbox">Todas</label>
-                @* </li>
-                <!-- Bucle para generar checkboxes de categorías dinámicamente -->
-                @foreach (var categoria in ViewBag.Categorias)
-                {
-                    <li class="list-group-item">
-                        <input type="checkbox" class="form-check-input categoriaCheckbox" id="categoriaCheckbox_@categoria.
-                        CategoriaId" data-categoria="@categoria.CategoriaId" />
-                        <label class="form-check-label" for="categoriaCheckbox_@categoria.CategoriaId">@categoria.Nombre</label>
-                    </li>
-                }
-            </ul> *@
 
-            @* <div class="d-flex mt-3">
-                <!-- Botón para ver todos los productos sin filtros -->
+    <div class="row">
+        <!-- Sidebar de Filtros -->
+        <aside class="col-md-3">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white text-center">
+                    <h5 class="m-0">Filtrar Resultados</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="todasCheckbox" data-categoria="" checked />
+                            <label class="form-check-label" for="todasCheckbox">Todas</label>
+                        </div>
+                    </li>
+                    @foreach (var categoria in ViewBag.Categorias)
+                    {
+                        <li class="list-group-item">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input categoriaCheckbox" id="categoriaCheckbox_@categoria.CategoriaId" data-categoria="@categoria.CategoriaId" />
+                                <label class="form-check-label" for="categoriaCheckbox_@categoria.CategoriaId">@categoria.Nombre</label>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center">
                 <form action="@Url.Action("Productos", "Home")" method="get">
                     <button type="submit" class="btn btn-link">Ver todos los productos</button>
                 </form>
-            </div> *@
+            </div>
+        </aside>
 
-        </nav>
-        <main role="main" class="col-md-9 py-3">
-            <!-- Contenedor para los productos -->
-            <div id="productosContainer">
-                @Html.Partial("_ProductosPartial", Model)
+        <!-- Contenedor Principal -->
+        <main class="col-md-9">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div id="productosContainer">
+                        @Html.Partial("_ProductosPartial", Model)
+                    </div>
+                </div>
             </div>
         </main>
     </div>
 </div>
 
 @{
-    // Obtener el nombre del controlador y la acción actual para usarlos en el script
     string? controllerName = Context.GetRouteValue("controller") as string;
     string? actionName = Context.GetRouteValue("action") as string;
 }
 
 <script>
-    // Pasar los valores del controlador y la acción actual al script de cliente
-    var controllerName = '@controllerName';
-    var actionName = '@actionName';
-</script>
-
-<!-- Scripts -->
-<script>
     $(document).ready(function () {
-        // Evento para el checkbox "todas las categorías"
         $('#todasCheckbox').on('change', function () {
             var isChecked = $(this).prop('checked');
             $('.categoriaCheckbox').prop('checked', isChecked);
             filtrarProductos();
         });
 
-        // Evento para los checkboxes de categorías individuales
         $('.categoriaCheckbox').on('change', function () {
             var allChecked = $('.categoriaCheckbox:checked').length === $('.categoriaCheckbox').length;
             $('#todasCheckbox').prop('checked', allChecked);
@@ -78,30 +79,18 @@
 
         function filtrarProductos() {
             var selectedCategorias = [];
-            // Recopilar los IDs de las categorías seleccionadas
             $('.categoriaCheckbox:checked').each(function () {
                 var categoriaId = $(this).data('categoria');
                 selectedCategorias.push(categoriaId);
             });
 
-            if (selectedCategorias.length === 0) {
-                // Mostrar todos los productos si no hay categorías seleccionadas
-                $('.productoItem').show();
-            } else {
-                // Ocultar todos los productos y mostrar solo los que pertenecen a las categorías seleccionadas
-                $('.productoItem').hide();
-                selectedCategorias.forEach(function (categoriaId) {
-                    $('.productoItem[data-categoria="' + categoriaId + '"]').show();
-                });
-            }
-
-            // Realizar solicitud Ajax para actualizar la vista parcial
             var url = '@Url.Action("Productos", "Home")';
             var data = {
                 pagina: @Model.PaginaActual,
                 categoriaId: selectedCategorias.join(","),
                 busqueda: '@Model.Busqueda'
             };
+
             $.ajax({
                 url: url,
                 type: 'GET',

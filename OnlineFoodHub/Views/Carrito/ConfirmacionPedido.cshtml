@@ -1,0 +1,66 @@
+﻿@model OnlineFoodHub.Models.Pedido
+
+<section class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="text-success"><i class="fa-solid fa-check-circle"></i> ¡Gracias por tu compra!</h1>
+        <p class="fs-5 text-muted">Tu pedido está listo para proceder con el pago. A continuación, los detalles:</p>
+    </div>
+
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white text-center">
+            <h3>Detalles del Pedido</h3>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th># Pedido</th>
+                        <th>Fecha</th>
+                        <th>Estado</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.PedidoId</td>
+                        <td>@Model.Fecha.ToString("g")</td>
+                        <td>
+                            <span class="badge @GetEstadoBadgeClass(Model.Estado)">
+                                @Model.Estado
+                            </span>
+                        </td>
+                        <td>@Model.Total.ToString("C")</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <div class="card shadow-sm border-primary">
+            <div class="card-body text-center">
+                <h4 class="mb-3">¿Listo para realizar el pago?</h4>
+                <form asp-action="RealizarPago" asp-controller="Carrito" method="post">
+                    <input type="hidden" name="pedidoId" value="@Model.PedidoId" />
+                    <button type="submit" class="btn btn-success btn-lg px-5">
+                        <i class="fa-solid fa-credit-card"></i> Realizar Pago
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+@functions {
+    // Función para obtener la clase Bootstrap según el estado del pedido
+    private string GetEstadoBadgeClass(string estado)
+    {
+        return estado switch
+        {
+            "Pendiente" => "bg-warning text-dark",
+            "Cancelado" => "bg-danger text-white",
+            "Completado" => "bg-success text-white",
+            _ => "bg-secondary text-white"
+        };
+    }
+}

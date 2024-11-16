@@ -1,0 +1,98 @@
+﻿@model OnlineFoodHub.Models.ViewModels.ProcederConCompraViewModel
+
+<section class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="text-primary"><i class="fa-solid fa-cart-arrow-down"></i> Proceder con la Compra</h1>
+        <p class="fs-5 text-muted">Revisa los productos en tu carrito y finaliza tu pedido.</p>
+    </div>
+
+    @if (!Model.Carrito.Items.Any())
+    {
+        <div class="alert alert-info text-center">
+            <p class="fs-5">No hay productos en la canasta.</p>
+            <a href="/Home" class="btn btn-primary mt-3">
+                <i class="fa-solid fa-arrow-left"></i> Seguir Comprando
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-lg">
+            <div class="card-header bg-success text-white">
+                <h3 class="m-0"><i class="fa-solid fa-cart-shopping"></i> Resumen de la Canasta</h3>
+            </div>
+            <div class="card-body">
+                <form asp-action="ProcederConCompra" asp-controller="Carrito" method="post">
+                    <table class="table table-striped table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+                                <th>Subtotal</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Carrito.Items)
+                            {
+                                <tr>
+                                    <td>@item.Nombre</td>
+                                    <td>
+                                        <input type="number" name="Cantidad" value="@item.Cantidad" min="1" max="@item.Producto.Stock" class="form-control form-control-sm" />
+                                    </td>
+                                    <td>@item.Precio.ToString("C")</td>
+                                    <td>@item.Subtotal.ToString("C")</td>
+                                    <td>
+                                        <form asp-action="EliminarCantidad" asp-controller="Carrito" method="post" style="display:inline;">
+                                            <input type="hidden" name="id" value="@item.ProductoId" />
+                                            <button type="submit" class="btn btn-danger btn-sm">
+                                                <i class="fa-solid fa-trash"></i> Eliminar
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" class="text-end fs-5"><strong>Total:</strong></td>
+                                <td colspan="2" class="fs-5"><strong>@Model.Carrito.Total.ToString("C")</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <div class="mt-4">
+                        @if (Model.Direcciones.Any())
+                        {
+                            <div class="card shadow-sm border-primary">
+                                <div class="card-body">
+                                    <h4 class="mb-3">Selecciona una dirección de envío</h4>
+                                    @foreach (var direccion in Model.Direcciones)
+                                    {
+                                        <div class="form-check mb-2">
+                                            <input type="radio" class="form-check-input" name="DireccionIdSeleccionada" value="@direccion.DireccionID" required />
+                                            <label class="form-check-label">
+                                                <i class="fa-solid fa-location-dot"></i> @direccion.Address
+                                            </label>
+                                        </div>
+                                    }
+                                    <input type="hidden" name="montoTotal" value="@Model.Carrito.Total" />
+                                    <button type="submit" class="btn btn-primary btn-lg mt-3 w-100">
+                                        <i class="fa-solid fa-check"></i> Realizar Pedido
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-warning text-center">
+                                <i class="fa-solid fa-exclamation-circle"></i> Por favor, agrega una dirección antes de realizar tu pedido.
+                            </div>
+                        }
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+</section>

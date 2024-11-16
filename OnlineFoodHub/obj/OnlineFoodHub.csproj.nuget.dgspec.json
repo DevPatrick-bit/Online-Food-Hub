@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Escritorio\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\OnlineFoodHub.csproj": {}
+    "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\OnlineFoodHub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Escritorio\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\OnlineFoodHub.csproj": {
+    "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\OnlineFoodHub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Escritorio\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\OnlineFoodHub.csproj",
+        "projectUniqueName": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\OnlineFoodHub.csproj",
         "projectName": "OnlineFoodHub",
-        "projectPath": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Escritorio\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\OnlineFoodHub.csproj",
+        "projectPath": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\OnlineFoodHub.csproj",
         "packagesPath": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Escritorio\\Proyecto_C&PS\\OnlineFoodHub\\OnlineFoodHub\\obj\\",
+        "outputPath": "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\OneDrive\\Imágenes\\Escritorio\\Dev\\Proyecto_C&PS\\OnlineFoodHub_0.2\\OnlineFoodHub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\krieg.DESKTOP-6U3IQMJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,6 +70,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.5, )"
+            },
+            "PayPalCheckoutSdk": {
+              "target": "Package",
+              "version": "[1.0.4, )"
             }
           },
           "imports": [
