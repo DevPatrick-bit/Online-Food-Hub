@@ -8,16 +8,16 @@
     <div class="container py-5">
         <div class="row d-flex justify-content-center my-4">
             <div class="col-md-8">
-                <div class="card mb-4">
-                    <div class="card-header py-3">
-                        <h2 class="mb-0">Canasta de Compras</h2>
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3 bg-primary text-white">
+                        <h2 class="mb-0"><i class="fas fa-shopping-cart"></i> Canasta de Compras</h2>
                     </div>
                     <div class="card-body">
                         @if (Model.Carrito.Items.Count == 0)
                         {
                             <div class="alert alert-info text-center">
-                                <p>No hay productos en la canasta.</p>
-                                <a href="/Home" class="btn btn-primary mt-3">Seguir Comprando</a>
+                                <p class="mb-0"><i class="fas fa-info-circle"></i> No hay productos en la canasta.</p>
+                                <a href="/Home" class="btn btn-primary mt-3"><i class="fas fa-store"></i> Seguir Comprando</a>
                             </div>
                         }
                         else
@@ -27,28 +27,26 @@
                                 <div class="row mb-4">
                                     <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
                                         <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
-                                            <img src="@item.Producto.Imagen" class="w-100" alt="Imagen del producto" />
+                                            <img src="@item.Producto.Imagen" class="w-100 rounded" alt="Imagen del producto" />
                                             <a href="#!" aria-label="Ver producto">
-                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                                <div class="mask" style="background-color: rgba(0, 0, 0, 0.1)"></div>
                                             </a>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
-                                        <p><strong>@item.Nombre</strong></p>
+                                        <h5>@item.Nombre</h5>
                                         <p>Cantidad: @item.Cantidad</p>
                                         <p>Precio: @item.Precio.ToString("C")</p>
-                                        <form asp-action="ActualizarCantidad" asp-controller="Carrito" method="post">
-                                            <div class="input-group mb-3">
-                                                <input type="number" value="@item.Cantidad" name="cantidad" class="form-control" min="1" max="@item.Producto.Stock" aria-label="Cantidad" />
-                                                <button type="submit" class="btn btn-primary" name="ActualizarCantidad" aria-label="Actualizar cantidad">
-                                                    <i class="fas fa-sync-alt"></i> Actualizar
-                                                </button>
-                                            </div>
+                                        <form asp-action="ActualizarCantidad" asp-controller="Carrito" method="post" class="d-flex">
+                                            <input type="number" value="@item.Cantidad" name="cantidad" class="form-control me-2" min="1" max="@item.Producto.Stock" aria-label="Cantidad" />
+                                            <button type="submit" class="btn btn-outline-primary" name="ActualizarCantidad" aria-label="Actualizar cantidad">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
                                             <input type="hidden" name="id" value="@item.ProductoId" />
                                         </form>
-                                        <form asp-action="EliminarCantidad" asp-controller="Carrito" method="post">
-                                            <button type="submit" class="btn btn-danger" name="EliminarProducto" aria-label="Eliminar producto">
+                                        <form asp-action="EliminarCantidad" asp-controller="Carrito" method="post" class="mt-2">
+                                            <button type="submit" class="btn btn-outline-danger" name="EliminarProducto" aria-label="Eliminar producto">
                                                 <i class="fas fa-trash-alt"></i> Eliminar
                                             </button>
                                             <input type="hidden" name="id" value="@item.ProductoId" />
@@ -56,58 +54,57 @@
                                     </div>
 
                                     <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                                        <p class="text-start text-md-center"><strong>Subtotal: @item.Subtotal.ToString("C")</strong></p>
+                                        <h6 class="text-start text-md-center"><strong>Subtotal: @item.Subtotal.ToString("C")</strong></h6>
                                     </div>
                                 </div>
+                                <hr />
                             }
-                            <hr class="my-4" />
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <form asp-controller="Carrito" asp-action="VaciarCarrito" method="post">
-                                        <button type="submit" class="btn btn-danger" name="VaciarCanasta" aria-label="Vaciar canasta">
-                                            <i class="fas fa-trash-alt"></i> Vaciar Canasta
-                                        </button>
-                                    </form>
 
-                                </div>
-                                <div class="col-md-6 text-end">
-                                    <h3>Total: @Model.Carrito.Total.ToString("C")</h3>
-                                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                            <div class="d-flex justify-content-between align-items-center">
+                                <form asp-controller="Carrito" asp-action="VaciarCarrito" method="post">
+                                    <button type="submit" class="btn btn-danger" name="VaciarCanasta" aria-label="Vaciar canasta">
+                                        <i class="fas fa-trash-alt"></i> Vaciar Canasta
+                                    </button>
+                                </form>
+                                <h3>Total: <span class="text-success">@Model.Carrito.Total.ToString("C")</span></h3>
+                            </div>
+
+                            @if (User.Identity != null && User.Identity.IsAuthenticated)
+                            {
+                                <form asp-controller="Carrito" asp-action="ProcederConCompra" method="post" class="mt-4">
+                                    @if (Model.Direcciones.Count == 0)
                                     {
-                                        <form asp-controller="Carrito" asp-action="ProcederConCompra" method="post">
-                                            @if (Model.Direcciones.Count == 0)
-                                            {
-                                                <p>No se encontraron direcciones de envío para su usuario. Acceda a su perfil para agregar una dirección.</p>
-                                            }
-                                            else
-                                            {
-                                                @foreach (var direccion in Model.Direcciones)
-                                                {
-                                                    <div class="form-check">
-                                                        <input type="radio" name="direccionIdSeleccionada" class="form-check-input" value="@direccion.DireccionID" id="@direccion.DireccionID" required aria-label="Seleccionar dirección de envío" />
-                                                        <label class="form-check-label" for="@direccion.DireccionID">
-                                                            @direccion.Address
-                                                        </label>
-                                                    </div>
-                                                }
-                                                <form asp-controller="Carrito" asp-action="PagoCompletado" method="post">
-                                                    <input type="hidden" name="montoTotal" value="@Model.Carrito.Total" />
-                                                    <button type="submit" class="btn btn-primary btn-lg mt-3" name="ProcederCompra">
-                                                        Proceder con la compra
-                                                    </button>
-                                                </form>
-
-                                            }
-                                        </form>
+                                        <div class="alert alert-warning">
+                                            <i class="fas fa-map-marker-alt"></i> No se encontraron direcciones de envío para su usuario. Acceda a su perfil para agregar una dirección.
+                                        </div>
                                     }
                                     else
                                     {
-                                        <a class="btn btn-primary" asp-action="Login" asp-controller="Account" name="IniciarSesion">
-                                            Iniciar sesión para proceder con la compra
-                                        </a>
+                                        <h5>Seleccionar dirección de envío</h5>
+                                        @foreach (var direccion in Model.Direcciones)
+                                        {
+                                            <div class="form-check">
+                                                <input type="radio" name="direccionIdSeleccionada" class="form-check-input" value="@direccion.DireccionID" id="@direccion.DireccionID" required aria-label="Seleccionar dirección de envío" />
+                                                <label class="form-check-label" for="@direccion.DireccionID">
+                                                    @direccion.Address
+                                                </label>
+                                            </div>
+                                        }
+                                        <input type="hidden" name="montoTotal" value="@Model.Carrito.Total" />
+                                        <button type="submit" class="btn btn-primary btn-lg mt-3" name="ProcederCompra">
+                                            <i class="fas fa-credit-card"></i> Proceder con la compra
+                                        </button>
                                     }
+                                </form>
+                            }
+                            else
+                            {
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-primary" asp-action="Login" asp-controller="Account" name="IniciarSesion">
+                                        <i class="fas fa-sign-in-alt"></i> Iniciar sesión para proceder con la compra
+                                    </a>
                                 </div>
-                            </div>
+                            }
                         }
                     </div>
                 </div>
