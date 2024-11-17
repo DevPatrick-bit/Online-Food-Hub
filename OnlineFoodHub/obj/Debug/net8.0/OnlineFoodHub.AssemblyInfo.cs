@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineFoodHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+545576db4d5279b25a2b985010d6165e47c1a98a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0962efffdc24ef43dce523b4a99eb4ef6736511e")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineFoodHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineFoodHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

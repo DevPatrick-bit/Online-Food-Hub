@@ -33,6 +33,14 @@
             </div>
 
             <div class="mb-3">
+                <label asp-for="Correo" class="form-label fw-bold"></label>
+                <input asp-for="Correo" class="form-control" type="email" />
+                <span asp-validation-for="Correo" class="text-danger"></span>
+            </div>
+
+           
+
+            <div class="mb-3">
                 <label asp-for="RolID" class="form-label fw-bold"></label>
                 <select asp-for="RolID" class="form-control" asp-items="ViewBag.RolID"></select>
                 <span asp-validation-for="RolID" class="text-danger"></span>
@@ -49,3 +57,4 @@
         </form>
     </div>
 </div>
+

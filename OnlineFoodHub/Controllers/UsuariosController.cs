@@ -108,19 +108,20 @@ namespace OnlineFoodHub.Controllers
             {
                 return NotFound();
             }
+
             var rol = await _context.Roles
                .Where(d => d.RolId == usuario.RolID)
                .FirstOrDefaultAsync();
 
             if (rol != null)
             {
-
                 var existingUser = await _context.Usuarios
                     .Include(u => u.Direcciones)
                     .FirstOrDefaultAsync(u => u.UsuarioId == id);
 
                 if (existingUser != null)
                 {
+                    // Manejar la dirección
                     if (existingUser.Direcciones.Count > 0)
                     {
                         var direccion = existingUser.Direcciones.First();
@@ -129,21 +130,33 @@ namespace OnlineFoodHub.Controllers
                     else
                     {
                         existingUser.Direcciones = new List<Direccion>
-                        {
-                            new Direccion
-                            {
-                                Address = usuario.Direccion,
-                            }
-
-                        };
+                {
+                    new Direccion
+                    {
+                        Address = usuario.Direccion,
                     }
+                };
+                    }
+
+                    // Actualizar datos principales del usuario
                     existingUser.Rol = rol;
                     existingUser.RolID = usuario.RolID;
                     existingUser.Nombres = usuario.Nombres;
                     existingUser.Telefono = usuario.Telefono;
                     existingUser.NombreUsuario = usuario.NombreUsuario;
-                    existingUser.Contrasenia = usuario.Contrasenia;
                     existingUser.Correo = usuario.Correo;
+
+                    // Manejar la contraseña
+                    if (string.IsNullOrWhiteSpace(usuario.Contrasenia))
+                    {
+                        // Si la contraseña está vacía, conservar la actual
+                        existingUser.Contrasenia = existingUser.Contrasenia;
+                    }
+                    else
+                    {
+                        // Si se proporcionó una nueva contraseña, actualizarla
+                        existingUser.Contrasenia = usuario.Contrasenia;
+                    }
 
                     try
                     {
@@ -163,30 +176,12 @@ namespace OnlineFoodHub.Controllers
                     }
                     return RedirectToAction(nameof(Index));
                 }
-
             }
+
             ViewData["RolID"] = new SelectList(_context.Roles, "RolId", "Nombre", usuario.RolID);
             return View(usuario);
         }
 
-        // GET: Usuarios/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var usuario = await _context.Usuarios
-                .Include(u => u.Rol)
-                .FirstOrDefaultAsync(m => m.UsuarioId == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
-
-            return View(usuario);
-        }
 
         // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]

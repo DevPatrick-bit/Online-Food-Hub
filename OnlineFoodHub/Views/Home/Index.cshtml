@@ -11,89 +11,73 @@
 <!-- Estilos CSS -->
 <style>
     /* Estilos de la tarjeta de producto */
+    /* Estilos mejorados de la tarjeta de producto */
     .productoItem {
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+        border-radius: 10px; /* Bordes redondeados */
+        overflow: hidden; /* Asegura que las imágenes no sobresalgan */
     }
 
-    .productoItem:hover {
-        transform: translateY(-15px); /* Eleva la tarjeta 15px al pasar el ratón */
-        box-shadow: 0 4px 8px rgba(255, 112, 0, 0.8); /* Agrega una sombra sutil */
-    }
+        .productoItem:hover {
+            transform: translateY(-20px) scale(1.03); /* Efecto de elevación y escala */
+            box-shadow: 0 8px 20px rgba(255, 112, 0, 0.6); /* Sombra más pronunciada */
+            background-color: rgba(255, 112, 0, 0.05); /* Fondo sutilmente iluminado */
+        }
 
-    .productoItem .card-body {
-        padding: 1.25rem; /* Añade padding dentro del cuerpo de la tarjeta */
-    }
+        .productoItem .card-body {
+            padding: 1.5rem; /* Ajuste del espacio interior */
+        }
 
-    .productoItem .card-title a {
-        color: #333; /* Color inicial del texto del título */
-        text-decoration: none; /* Quita el subrayado del enlace */
-        transition: color 0.3s ease-in-out; /* Transición suave del color al pasar el ratón */
-    }
+        .productoItem .card-title a {
+            color: #333; /* Color inicial del texto */
+            text-decoration: none;
+            transition: color 0.4s ease, text-shadow 0.4s ease; /* Transición suave del color y sombra */
+        }
 
-    .productoItem .card-title a:hover {
-        color: #007bff; /* Cambia el color del texto al azul de Bootstrap al pasar el ratón */
-    }
+            .productoItem .card-title a:hover {
+                color: #ff7000; /* Cambia a un tono naranja atractivo */
+                text-shadow: 2px 2px 8px rgba(255, 112, 0, 0.7); /* Sombra iluminada */
+            }
 
-    .productoItem .card-text {
-        font-size: 0.875rem; /* Tamaño de fuente más pequeño para el texto */
-        color: #666; /* Color secundario del texto */
-    }
+        .productoItem .card-text {
+            font-size: 0.9rem; /* Tamaño ligeramente mayor */
+            color: #555; /* Color mejorado para contraste */
+        }
 
-    .productoItem .list-group-item {
-        font-size: 0.875rem; /* Tamaño de fuente más pequeño para los elementos de la lista */
-        border: none; /* Quita el borde de los elementos de la lista */
-    }
+        .productoItem .list-group-item {
+            font-size: 0.875rem;
+            border: none;
+            background-color: rgba(255, 112, 0, 0.05); /* Fondo ligeramente destacado */
+        }
 
-    .productoItem .list-group-item.font-weight-bold {
-        font-weight: bold; /* Fuente en negrita para elementos específicos */
-    }
+            .productoItem .list-group-item.font-weight-bold {
+                font-weight: bold;
+                color: #ff7000; /* Color relacionado con el diseño general */
+            }
 
-    .productoItem .alert {
-        margin-top: 0.75rem; /* Añade margen superior al mensaje de alerta */
-    }
+        .productoItem .btn {
+            padding: 0.6rem 1.2rem; /* Botón más amplio y cómodo */
+            border-radius: 20px; /* Botón con bordes redondeados */
+            transition: background-color 0.4s ease, box-shadow 0.4s ease; /* Transición para hover */
+        }
 
-    .productoItem form {
-        margin-top: 0.75rem; /* Añade margen superior al formulario */
-    }
-
-    .productoItem input[type="number"] {
-        width: 4rem; /* Ancho específico para el campo de cantidad */
-        text-align: center; /* Centra el texto dentro del campo */
-    }
-
-    .productoItem .btn {
-        padding: 0.5rem 1rem; /* Ajusta el padding del botón */
-    }
-
-    .productoItem .btn i {
-        margin-right: 0.25rem; /* Añade margen derecho al ícono dentro del botón */
-    }
+            .productoItem .btn:hover {
+                background-color: #ff7000;
+                color: #fff;
+                box-shadow: 0 4px 10px rgba(255, 112, 0, 0.4); /* Sombra para el hover */
+            }
 
     .card-img-top {
-        width: 70%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
-        height: 350px; /* Altura deseada para la imagen */
-        object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+        width: 100%; /* Ancho completo */
+        height: 200px; /* Ajuste para tamaño uniforme */
+        object-fit: cover; /* Mantener proporciones de imagen */
+        transition: transform 0.4s ease; /* Efecto en la imagen al pasar el mouse */
     }
 
-    .bg-custom {
-        background-color: rgba(255, 112, 0, 1) !important; /* Color de fondo oscuro con opacidad */
-        color: rgba(255, 255, 255, 1) !important; /* Color del texto */
+    .productoItem:hover .card-img-top {
+        transform: scale(1.1); /* Zoom suave al pasar el mouse */
     }
 
-    .card-category {
-        height: 100%;
-    }
-
-    .card-img-container-category {
-        height: 100%;
-        overflow: hidden;
-    }
-
-    .card-img-top-category {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-    }
 </style>
 
 <body>
