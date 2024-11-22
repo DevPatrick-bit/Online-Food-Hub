@@ -121,8 +121,16 @@ namespace OnlineFoodHub.Controllers
 
                 if (existingUser != null)
                 {
-                    // Manejar la dirección
-                    if (existingUser.Direcciones.Count > 0)
+                    // Actualizar datos principales del usuario
+                    existingUser.Rol = rol;
+                    existingUser.RolID = usuario.RolID;
+                    existingUser.Nombres = usuario.Nombres;
+                    existingUser.Telefono = usuario.Telefono;
+                    existingUser.NombreUsuario = usuario.NombreUsuario;
+                    existingUser.Correo = usuario.Correo;
+
+                    // Manejar la dirección principal
+                    if (existingUser.Direcciones.Any())
                     {
                         var direccion = existingUser.Direcciones.First();
                         direccion.Address = usuario.Direccion;
@@ -134,27 +142,17 @@ namespace OnlineFoodHub.Controllers
                     new Direccion
                     {
                         Address = usuario.Direccion,
+                        UsuarioId = existingUser.UsuarioId
                     }
                 };
                     }
 
-                    // Actualizar datos principales del usuario
-                    existingUser.Rol = rol;
-                    existingUser.RolID = usuario.RolID;
-                    existingUser.Nombres = usuario.Nombres;
-                    existingUser.Telefono = usuario.Telefono;
-                    existingUser.NombreUsuario = usuario.NombreUsuario;
-                    existingUser.Correo = usuario.Correo;
+                    // Sincronizar propiedad `Direccion`
+                    existingUser.Direccion = usuario.Direccion;
 
                     // Manejar la contraseña
-                    if (string.IsNullOrWhiteSpace(usuario.Contrasenia))
+                    if (!string.IsNullOrWhiteSpace(usuario.Contrasenia))
                     {
-                        // Si la contraseña está vacía, conservar la actual
-                        existingUser.Contrasenia = existingUser.Contrasenia;
-                    }
-                    else
-                    {
-                        // Si se proporcionó una nueva contraseña, actualizarla
                         existingUser.Contrasenia = usuario.Contrasenia;
                     }
 
@@ -181,6 +179,7 @@ namespace OnlineFoodHub.Controllers
             ViewData["RolID"] = new SelectList(_context.Roles, "RolId", "Nombre", usuario.RolID);
             return View(usuario);
         }
+
 
 
         // GET: Usuarios/Delete/5
